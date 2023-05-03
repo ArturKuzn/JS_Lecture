@@ -137,11 +137,11 @@ console.log(expression.replace(/[аоуіиеяюєї]/gi,""))
 
 // Solution №9
 
-let m = 555;
+let m = 1;
 let km = m/1000; 
 
 if (m ==1) {
-                 console.log(`${m} метр це ${km} кілометр`)
+                 console.log(`${m} метр це ${km} кілометрa`)
 } else if (m > 1 && m <5){
                  console.log(`${m} метри це ${km} кілометра`)
 } else if (m>=5 && m<20 ) {
